@@ -1,0 +1,56 @@
+Getting started on the robot assignment
+---------------------------------------
+
+The startup pack for the Robot assignment contains four files:
+
+   - Robot.class
+   - SomeListener.class
+   - RobotControl.java
+   - RobotMain.java
+
+Your task for this assignment is to implement the code for controlling the
+movement of the robot for various scenarios in the control() method of the
+RobotControl class.
+
+You do not need the source code for the Robot or SomeListener classes as they
+are designed to work as long as you supply a valid RobotControl.java file.
+
+Ways of working on assignment 1B:
+
+A) Console Programming
+
+   If you plan to do your robot assignment using a text editor and 
+   compiling/running the program from a command prompt then you need
+   to obtain the console-friendly version of the robot startup code 
+   "Robot-Ass1B-Console.zip", extract the startup files archive
+   wherever you wish to keep your assignment 2 program and edit the
+   "RobotControl.java" file.
+
+   You can run the robot as shown in the assignment specification 
+   (ie. java Robot).
+
+B) Using Eclipse
+
+   If you wish to use eclipse then you should follow the instructions 
+   for importing the "eclipse-friendly" version of the startup files - 
+   make sure you do each step exactly as shown or the Robot may not 
+   run correctly.
+
+   The file you will be editing is still "RobotControl.java".
+   
+   If you are using eclipse then you can run the Robot class even though
+   you do not have the source code for it.
+   
+   To supply the command line arguments for changing the bar and/or block
+   heights you need to:
+   
+      A) Select the "Run Configurations" option from either the "Run" menu
+         or the run quick-launch button (click on the small triangle
+         next to the run button)
+         
+      B) Go to the "Arguments" tab
+      
+      C) Enter the values for the bar and/or block heights in the 
+         "Program Arguments" window
+         
+      D) Click on the "Run" button
