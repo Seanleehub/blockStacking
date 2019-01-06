@@ -1,0 +1,3 @@
+  Current Date:<!--#echo var="DATE_LOCAL" --><br/>
+  
+  Last Modified: <!--#echo var="LAST_MODIFIED"-->

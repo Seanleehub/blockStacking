@@ -1,0 +1,10 @@
+<p>
+	<ul id="sddm">
+				<li><a href="home.shtml" class="nav">Home Page</a></li>
+				<li><a href="musicproducts.shtml" class="nav">Music</a></li>
+				<li><a href="movieproducts.shtml" class="nav">DVD</a></li>
+				<li><a href="feedback.shtml" class="nav">Feedback</a></li>
+				<li><a href="aboutus.shtml" class="nav">About Us</a></li>
+				<li><a href="contacts.shtml" class="nav">Contacts</a></li>
+      </ul>
+</p>

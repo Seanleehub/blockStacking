@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Your Electronic Music And Movie Store</title>
+
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="javascript/marquee.js"></script>
+<script type="text/javascript" src="javascript/rollover.js"></script>
+<script type="text/javascript" src="javascript/feedback.js"></script>
+<script type="text/javascript" src="javascript/price.js"></script>
+
+
+<script type="text/javascript">
+<!--
+function MM_setTextOfTextfield(objId,x,newText) { //v9.0
+  with (document){ if (getElementById){
+    var obj = getElementById(objId);} if (obj) obj.value = newText;
+  }
+}
+//-->
+</script>
+
+</head>
+
+<body>
+<div id="container">
+  <div id="header"><a name="top" id="top"></a>
+   <div id="logocontainer">
+  <img src="Images/storelogo.png" alt="eM&amp;M logo" width="295" height="91" id="logo" /></div>
+  <div id="shoppingcart">
+   <table width="200" border="0" id="shoppingcarttab">
+      <tr>
+        <td class="tdwidth40"><a href="#"><img src="Images/cart.jpg" alt="Shopping cart" width="40" height="40" /></a></td>
+        <td class="tdwidth150"><p class="style1"><a href="#">Shopping Cart:<br />
+        Click here to purchase products.</a></p>          </td>
+      </tr>
+    </table>
+    </div>
+  </div>
+  
+  <div id="headerbackground"></div>
+  <div id="content"><div id="topcontent">
+    <div id="toprightright">
+      <table width="100%" border="0">
+        <tr>
+          <td class="hiddensides"><strong>Quick Search:</strong><br />
+
+            <table><tr><td><input type="text" name="search" size="13" id="search" />     </td><td>         
+            <img src="Images/gobutton.png" alt="Go" width="40" height="25" />
+
+			</td></tr></table>    
+			<br />
+			</td>
+        </tr>
+        <tr><td class="hiddensides">
+          <p><img src="Images/buttons/arrow.png" alt="Arrow" width="46" height="15" id="arrow"/><strong class="style2 style6"> Best Buys</strong></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="hiddensides"><p><strong>Login:</strong>
+            <input type="text" name="username" id="username" value="Username"/>
+                <br/>
+                
+                <input type="password" name="password" id="password" value="Password" />
+                </p>
+        <input type="submit" name="Submit" id="Submit" value="Enter" />
+          <p><a href="register.shtml">Click here to Register</a><br />
+            </p></td>
+        </tr>
+        
+      </table>
+    </div>
+    <div id="topleftcontent">
+			<!--#include virtual="nav.shtml" -->
+	</div>
+	<!-- Featured PRODUCTS -->
+    <div id="toprightcontent" class="center">
+    
+     <table class="marquetable" border="0" cellpadding="0" cellspacing="0" id="featuredproducts">
+        <tr>
+			<td class="tdwidth440" id="left">
+				<div id="nowShowing1" style="display:inline">
+					<a href="movieproducts.shtml"><img src="Images/posters/dark1.jpg" alt="Dark Knight" /></a>
+				</div>
+				<div id="nowShowing2" style="display:none">
+					<a href="movieproducts.shtml"><img src="Images/posters/journeycenter.jpg" alt="journey" /></a>
+				</div>
+				<div id="nowShowing3" style="display:none">
+					<a href="movieproducts.shtml"><img alt="wall-e" src="Images/posters/wall-e.jpg" /></a>
+				</div>
+				<div id="nowShowing4" style="display:none">
+					<a href="movieproducts.shtml"><img alt="duchess" src="Images/posters/duchess.jpg" /></a>
+				</div>
+				<div id="nowShowing5" style="display:none">
+					<a href="musicproducts.shtml"><img alt="joshgroban" src="Images/posters/joshgroban.png" /></a>
+				</div>
+				<div id="nowShowing6" style="display:none">
+					<a href="musicproducts.shtml"><img alt="nickelback" src="Images/posters/nickelback.jpg" /></a>
+				</div>
+				<div id="nowShowing7" style="display:none">
+					<a href="musicproducts.shtml"><img alt="neyo" src="Images/posters/neyo.jpg" /></a>
+				</div>              
+				<div id="nowShowing8" style="display:none">
+					<a href="musicproducts.shtml"><img alt="beyonce" src="Images/posters/beyonce.jpg" /></a>
+				</div>
+			</td>
+            <td id="marqueeSelect">
+                <a href="movieproducts.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot1','','Images/posters/dark1tb2.png',0)"><img alt="The Dark Knight" src="Images/posters/dark1tb.jpg" class="marqueeSlotOn" 
+                            id="nowShowingSlot1" onmouseover="showMarquee('1'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(1); document.body.style.cursor = 'auto';" /></a>
+                 <a href="movieproducts.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot2','','Images/posters/journeytb2.png',0)"> <img alt="Journey to the Center of the Earth" src="Images/posters/journeycentertb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot2" onmouseover="showMarquee('2'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(2); document.body.style.cursor = 'auto';"/></a>
+                  <a href="movieproducts.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot3','','Images/posters/walltb2.png',0)"><img alt="Wall-e" src="Images/posters/wall-etb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot3" onmouseover="showMarquee('3'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(3); document.body.style.cursor = 'auto';"/></a>
+                 <a href="movieproducts.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot4','','Images/posters/duchesstb2.png',0)"> <img alt="Duchess" src="Images/posters/duchesstb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot4" onmouseover="showMarquee('4'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(4); document.body.style.cursor = 'auto';"/></a>
+                              
+                 <a href="musicproducts.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot5','','Images/posters/joshtb2.png',0)"> <img alt="Josh Groban" src="Images/posters/joshgrobantb.png" class="marqueeSlot" 
+                            id="nowShowingSlot5" onmouseover="showMarquee('5'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(5); document.body.style.cursor = 'auto';"/></a>
+                              
+                 <a href="musicproducts.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot6','','Images/posters/nickelbacktb2.png',0)"> <img alt="Nickelback" src="Images/posters/nickelbacktb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot6" onmouseover="showMarquee('6'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(6); document.body.style.cursor = 'auto';"/></a>
+                              
+                 <a href="musicproducts.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot7','','Images/posters/neyotb2.png',0)"> <img alt="Neyo" src="Images/posters/neyotb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot7" onmouseover="showMarquee('7'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(7); document.body.style.cursor = 'auto';"/></a>
+                  <br />
+            </td>
+          </tr>
+        </table>
+ 
+    
+    </div>
+  <!-- END FEATURED PRODUCTS -->
+  </div>
+		<br class="clear" />
+		<div id="centercontent">
+			<div id="rightcontent">
+				<a href="#"><img src="Images/bestdeals.jpg" alt="Best Deals" width="163" height="194" /></a><br />
+				<br />
+				<a href="#"><img src="Images/nickback artist page.jpg" alt="Nickelback" width="163" height="194" /></a><br />
+				<br />
+				<a href="#"><img src="Images/beyonce.jpg" alt="Beyonce" width="163" height="194" /></a><br />
+				<br />
+				<a href="#"><img src="Images/music dvd.jpg" alt="Music Dvd" width="163" height="194" /></a>   <br />
+				<br />
+		</div>
+		<div id="leftcontent">
+			<h1> Top 5 Music</h1>
+				<table width="93%" border="0" cellpadding="0" cellspacing="0" class="tableleftcolume">
+				<tr>
+					<td class="hiddensides">1.&nbsp;&nbsp;</td>
+					<td  class="hiddensides"><p> Neyo: Year Of The Gentle Man<br />
+					<span class="style2"><strong>CD $11.99</strong></span></p></td>
+				</tr>
+				<tr>
+					<td class="hiddensides">2.</td>
+					<td class="hiddensides"><p>Nickelback: Dark Horse<br />
+					<span class="style2"><strong>CD $11.99</strong></span></p></td>
+				</tr>
+				<tr>
+					<td class="hiddensides">3.</td>
+					<td class="hiddensides"><p>Beyonce: I Am Sasha Fierce<br />
+					<span class="style2"><strong>CD $11.99</strong></span></p></td>
+				</tr>
+				<tr>
+				   <td class="hiddensides">4.</td>
+				   <td class="hiddensides"><p>Josh Groban: A Collection<br />
+				   <strong class="style2">CD<span class="style2"> $</span></strong><span class="style2"><strong>11.99</strong></span></p></td>
+				</tr>
+				<tr>
+					<td>5.</td>
+					<td><p>Killers: Day and Age<br />
+					<span class="style2"><strong>CD $11.99</strong></span></p></td>
+				</tr>
+				</table>
+				<p>&nbsp;</p>
+				<h1>Top 5 Movies</h1>
+				<table width="93%" border="0" cellpadding="0" cellspacing="0" class="tableleftcolume">
+					  <tr>
+						<td class="hiddensides">1.&nbsp;&nbsp;</td>
+						<td class="hiddensides"><p> The Dark Knight<br />
+								<span class="style2"><strong>DVD $14.99</strong></span></p></td>
+					  </tr>
+					  <tr>
+						<td class="hiddensides">2.</td>
+						<td class="hiddensides"><p>Kungfu Panda<br />
+								<span class="style2"><strong>DVD $14.99</strong></span></p></td>
+					  </tr>
+					  <tr>
+						<td class="hiddensides">3.</td>
+						<td class="hiddensides"><p>Wall-E<br />
+								<span class="style2"><strong>DVD $14.99</strong></span></p></td>
+					  </tr>
+					  <tr>
+						<td class="hiddensides">4.</td>
+						<td class="hiddensides"><p>The Duchess<br />
+								<strong class="style2">DVD $</strong><strong class="style2">14.99</strong></p></td>
+					  </tr>
+					  <tr>
+						<td>5.</td>
+						<td><p>Journey to the Center Of the Earth<br />
+								<span class="style2"><strong>DVD $14.99</strong></span></p></td>
+					  </tr>
+				</table>
+				<p>&nbsp;</p>
+     
+		</div>
+   <div id="midcontent">
+        <h1>Terms and Conditions</h1>
+        
+        <div class="ppadding">
+        <p class="style2 center"><strong>eM&amp;M website Terms and Conditions</strong></p>
+        <p class="left">By submitting an order, you are accepting the Terms and Conditions of  the eM&amp;M web site. Orders for the sale of downloaded music are made  with, and subject to the terms of the End User Licence of eM&amp;M Limited</p>
+        <h3>Terms and Conditions for the Supply of eM&amp;M Products</h3>
+        <div>
+          <h4 class="style2">Your details</h4>
+          <ol>
+            <li>When you register with the eM&amp;M web site, you will be required to  choose a contact email address and password. You are responsible for  all sessions and transactions taken under these details. You should  keep your password safe and not disclose it to anyone. You should  change it immediately if you feel it has been compromised.</li>
+            <li>If any of your details change, such as your credit card billing  address, you must inform eM&amp;M as soon as possible. You may update your  details by signing into your account on the eM&amp;M web site, and update  the relevant section.</li>
+            <li>Where a legal age classification for an item is displayed, by  submitting an order for said item, you will be confirming that you are  of the legal age to view said product.</li>
+          </ol>
+          <div class="right"><a href="#top">Back to Top...</a></div>
+        </div>
+        <div>
+          <h4 class="style2">The Contract Between Us</h4>
+          <ol>
+            <li>Any contract for purchases made through the web site will be with  eM&amp;M Limited, registered in Sydney, and whose registered  office is Media House company registration number 43585.</li>
+            <li>eM&amp;M must receive payment of the whole of the price for the goods  that you order before your order can be accepted, and the contract  formed. Payment is not taken until the point of despatch of the goods  to you from our premises in Sydney. When payment is to be made with  E-Vouchers, the E-voucher will be removed from your wallet on placing  your order but will not be accepted as payment until the goods are  despatched to you. If the order is cancelled or not fulfilled the  E-Voucher will be re-credited to your wallet. Once payment has been  received eM&amp;M will confirm that your order has been received by sending  an email to you at the email address you provide in your registration  form. The shipment email will include your name, the order number and  the total price. eM&amp;M s acceptance of your order brings into existence a  legally binding contract between us on these terms. Any term sought to  be imposed by you in your order will not form part of the contract.</li>
+            <li>eM&amp;M are entitled to withdraw from any contract in the case of  obvious errors or inaccuracies regarding the goods appearing on our web  site. If an error or inaccuracy is discovered with regards to the  advertised price of the goods that you have ordered before the contract  is made (see (b) above) we will contact you as soon as possible by  email. </li>
+            </ol>
+          <div class="right"><a href="#top">Back to Top...</a></div>
+        </div>
+        <div>
+          <h4 class="style2">Withdrawal By You From The Contract</h4>
+          <p>If you are an individual and are not buying goods on behalf of a  business, there are certain circumstances in which you may withdraw  from the contract and these are set out here. This right to withdraw  does not apply to business buyers.</p>
+          <ol>
+            <li>You may withdraw your order for goods at any time up to the end of  the twenty first working day after you have received the goods. You do  not need to give eM&amp;M any reason for withdrawing your order nor will you  have to pay any penalty.</li>
+            <li>The only circumstances in which you cannot withdraw your order are  where you have taken the goods you have ordered (or the ones in  relation to which you want to withdraw) out of the sealed package in  which they were delivered.</li>
+            <li>To withdraw your order you must notify eM&amp;M in writing at the address set out in the eM&amp;M returns section of this Web site.</li>
+            <li>If you have received the goods before you withdraw your order then,  unless you have lost your right to withdraw because you have taken the  goods out of their sealed package, you must send them back to the eM&amp;M  contact address at your own cost and risk. If you withdraw your order  but eM&amp;M has already processed the goods for delivery and you have  received them, you must not unpack the goods when they are received by  you and you must send the goods back toeM&amp;M at the eM&amp;M contact address  at your own cost and risk as soon as possible.</li>
+            <li>Once you have notified eM&amp;M that you are withdrawing your order, any  sum debited to eM&amp;M from your credit card will be re-credited to your  account as soon as possible and in any event within 30 days of your  order PROVIDED THAT the goods in question are returned by you and  received by eM&amp;M in the condition they were in when delivered to you.</li>
+          </ol>
+          <div class="right"><a href="#top">Back to Top...</a></div>
+        </div>
+        <div>
+          <h4 class="style2">Availability Of Goods You Order</h4>
+          <p>If eM&amp;M has insufficient stock to deliver the goods ordered by you,  we will notify you as soon as possible and any sum debited by eM&amp;M from  your credit card will be re-credited to your account and eM&amp;M will  notify you by email at the address given by you in your order form. The  refund will be made as soon as possible and in any event within 30 days  of your order. eM&amp;M will not be obliged to offer any additional  compensation for disappointment suffered.</p>
+          <p>PLEASE NOTE: We endeavour to bring our customers the best value we  can by running special offers, but please remember stocks are limited  at the special offer price, and subject to availability. We update our  web site as quickly as we can to minimise disappointment. The process  of updating the web site when goods have sold out at campaign price can  take a few hours to update. Please note that the price the goods are  offered for tender are as displayed in the Shopping Basket. Rest  assured your credit card will only be debited as your order or  individual items from your order are dispatched.</p>
+          <p class="right"><a href="#top">Back to Top...</a></p>
+        </div>
+        <div>
+          <h4 class="style2">Delivery Of Goods To You</h4>
+          <ol>
+            <li>eM&amp;M will post, or arrange a courier on your behalf for, the goods  ordered by you to the person and address you give eM&amp;M at the time you  make your order. The consignee (i.e. the person to whom the consignment  is sent) will be the declarant and importer into the country for which  the consignment is destined. For non-Sydney destinations, the consignee  will be responsible for both customs clearance and payment of customs  duties and local taxes where required. Each item ordered will be  treated as a seperate sale and will be shipped and paid for seperately. </li>
+            <li>Delivery will be made as soon as possible after your order is  accepted and in any event within 30 days of despatch of the order. All  delivery times quoted on the web site are estimates only, based on  availability, normal processing and delivery companies.</li>
+            <li>You will become the owner of the goods you have ordered when the goods are dispatched to you from our premises in Sdyney.</li>
+          </ol>
+          <div class="right"><a href="#top">Back to Top...</a></div>
+        </div>
+        <div>
+          <h4 class="style2">Customs charges</h4>
+          <p>If you are ordering goods for delivery outside of the Sydney, please  note that your consignment may be subject to import duties and taxes,  which are levied once the goods reach the country of destination. Any  such charges levied in relation to customs clearance must be borne by  you. It is accepted by you that eM&amp;M has no control over additional  charges in relation to customs clearance. eM&amp;M recommend that you check  with your local customs officials or post office for more information  regarding importation taxes / duties that may be applicable to your  on-line order. You will be the importer of record and responsible for  any import VAT and duty that may be borne. In addition, any charges for  import clearance will be borne by you, the customer.</p>
+          <p>Please note that when shipping goods from Sydney, cross border  shipments may be subject to opening and inspection by customs  authorities. In respect of all goods dispatched to you to an address  outside of Guernsey, you are deemed to be the importer of the goods an  d must therefore comply with all the laws and regulations of the  country into which the goods are being delivered.</p>
+          <p class="right"><a href="#top">Back to Top...</a></p>
+        </div>
+        <div>
+          <h4 class="style2">Liability</h4>
+          <p>This is as follows:-</p>
+          <ol>
+            <li>If the goods eM&amp;M delivers are not what you ordered or are damaged  or defective or the delivery is of an incorrect quantity, eM&amp;M shall  have no liability to you unless you notify eM&amp;M in writing at the eM&amp;M  contact address of the problem within 10 working days of the delivery  of goods in question.</li>
+            <li>If you do not receive goods ordered by you within 30 days of the  date on which they were despatched to you, eM&amp;M shall have no liability  to you unless you notify eM&amp;M in writing at the eM&amp;M contact address of  the problem within 40 days of the date on which the goods were  despatched to you.</li>
+            <li>If you notify a problem to eM&amp;M under this condition, eM&amp;M's only  obligation will be, at its option:- to make good any shortage or  non-delivery; to replace or repair any goods that are damaged or  defective; or to refund to you the amount paid by you for the goods in  question to the original method of payment, unless such method is no  longer valid in which case eM&amp;M E-Coupons will be issued to the value of  due refund.</li>
+            <li>eM&amp;M will not be liable to you for any indirect or consequential  loss or damage arising out of any problem you notify to eM&amp;M under this  condition and eM&amp;M shall have no liability to pay any money to you by  way of compensation other than to refund to you the amount paid by you  for the goods in question under paragraph (c) above.</li>
+            <li>Nothing in this condition is, however, intended to limit any rights  you might have as a consumer under applicable local law that may not be  excluded nor in any way to exclude or limit eM&amp;M's liability to you for  any death or personal injury resulting from its negligence.</li>
+          </ol>
+          <p>Nothing in this contract creates any right which is enforceable by any person who is not a party to the contract.</p>
+          <p class="right"><a href="#top">Back to Top...</a></p>
+        </div>
+        <div>
+          <h4 class="style2">Entire Agreement</h4>
+          <p>These terms and conditions, together with the current eM&amp;M Web site  prices, delivery details and eM&amp;M contact details, set out the whole of  our agreement relating to the supply of the goods to you by eM&amp;M. These  terms and conditions cannot be varied except in writing signed by a  director of eM&amp;M. In particular nothing said by any sales person on  behalf of eM&amp;M should be understood as a variation of these terms and  conditions or as an authorised representation about the nature or  quality of any goods offered for sale by eM&amp;M. eM&amp;M shall have no  liability for any such representation being untrue or misleading.</p>
+        </div>
+        <p class="right"><a href="#top">Back to Top...</a></p>
+        <p class="style2 center">&nbsp;</p>
+        <p class="style2 center">&nbsp;</p></div>
+       </div>
+    </div>
+	<!-- END CONTENT -->
+  
+   
+  </div>
+  <br class="clear" />
+  <div id="footer"> <div id="footerbackground"></div>
+
+  <div id="links">
+  <table width="100%" id="footertable"><tr><td class="showside style1 width16"><a href="home.shtml">HomePage</a></td>
+  <td class="showside style1 width16"><a href="musicproducts.shtml">Music</a></td>
+  <td class="showside style1 width16"><a href="movieproducts.shtml">DVD</a></td>
+  <td class="showside style1 width16"><a href="feedback.shtml">Feedback</a></td>
+  <td class="showside style1 width16"><a href="aboutus.shtml">AboutUs</a></td><td class="width16"><span class="style1"><a href="contacts.shtml">Contacts</a></span></td>
+  </tr>
+  </table>
+  </div>
+  <div class="style1" id="cardss">We accept:<img src="Images/cards.gif" alt="Payment" height="29" id="cards" /><br/><!--#include virtual="date.shtml" --></div>
+   <br class="clear" />
+  <div class="copy">
+  <table class="copy width100"><tr><td class="showside style1 width47"><a href="copyright.shtml">Copyright &copy; 2008 eM&amp;M</a> </td>
+  <td class="showside style1 width27">
+	<a href="privacy.shtml">Privacy Notice</a>
+  </td>
+  <td class="width26"><span class="style1">
+	<a href="terms.shtml">Terms Of Use</a></span>
+  </td>
+  </tr>
+  </table>
+  </div>
+  
+  
+  </div>
+</div>
+</body>
+</html>

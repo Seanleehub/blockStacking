@@ -1,0 +1,443 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Your Electronic Music And Movie Store</title>
+
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="javascript/marquee.js"></script>
+<script type="text/javascript" src="javascript/rollover.js"></script>
+<script type="text/javascript" src="javascript/feedback.js"></script>
+<script type="text/javascript" src="javascript/price.js"></script>
+<script type="text/javascript" src="javascript/formvalidation.js"></script>
+
+
+<script type="text/javascript">
+<!--
+function MM_setTextOfTextfield(objId,x,newText) { //v9.0
+  with (document){ if (getElementById){
+    var obj = getElementById(objId);} if (obj) obj.value = newText;
+  }
+}
+//-->
+</script>
+
+</head>
+
+<body>
+<div id="container">
+  <div id="header"><a name="top" id="top"></a>
+   <div id="logocontainer">
+  <img src="Images/storelogo.png" alt="eM&amp;M logo" width="295" height="91" id="logo" /></div>
+  <div id="shoppingcart">
+   <table width="200" border="0" id="shoppingcarttab">
+      <tr>
+        <td class="tdwidth40"><a href="#"><img src="Images/cart.jpg" alt="Shopping cart" width="40" height="40" /></a></td>
+        <td class="tdwidth150"><p class="style1"><a href="#">Shopping Cart:<br />
+        Click here to purchase products.</a></p>          </td>
+      </tr>
+    </table>
+    </div>
+  </div>
+  
+  <div id="headerbackground"></div>
+  <div id="content"><div id="topcontent">
+    <div id="toprightright">
+      <table width="100%" border="0">
+        <tr>
+          <td class="hiddensides"><strong>Quick Search:</strong><br />
+
+            <table><tr><td><input type="text" name="search" size="13" id="search" />     </td><td>         
+            <img src="Images/gobutton.png" alt="Go" width="40" height="25" />
+
+			</td></tr></table>    
+			<br />
+			</td>
+        </tr>
+        <tr><td class="hiddensides">
+          <p><img src="Images/buttons/arrow.png" alt="Arrow" width="46" height="15" id="arrow"/><strong class="style2 style6"> Best Buys</strong></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="hiddensides"><p><strong>Login:</strong>
+            <input type="text" name="username" id="username" value="Username"/>
+                <br/>
+                
+                <input type="password" name="password" id="password" value="Password" />
+                </p>
+        <input type="submit" name="Submit" id="Submit" value="Enter" />
+          <p><a href="register.shtml">Click here to Register</a><br />
+            </p></td>
+        </tr>
+        
+      </table>
+    </div>
+    <div id="topleftcontent">
+			<!--#include virtual="nav.shtml" -->
+	</div>
+	<!-- Featured PRODUCTS -->
+    <div id="toprightcontent" class="center">
+    
+     <table class="marquetable" border="0" cellpadding="0" cellspacing="0" id="featuredproducts">
+        <tr>
+			<td class="tdwidth440" id="left">
+				<div id="nowShowing1" style="display:inline">
+					<a href="movieproducts.shtml"><img src="Images/posters/dark1.jpg" alt="Dark Knight" /></a>
+				</div>
+				<div id="nowShowing2" style="display:none">
+					<a href="movieproducts.shtml"><img src="Images/posters/journeycenter.jpg" alt="journey" /></a>
+				</div>
+				<div id="nowShowing3" style="display:none">
+					<a href="movieproducts.shtml"><img alt="wall-e" src="Images/posters/wall-e.jpg" /></a>
+				</div>
+				<div id="nowShowing4" style="display:none">
+					<a href="movieproducts.shtml"><img alt="duchess" src="Images/posters/duchess.jpg" /></a>
+				</div>
+				<div id="nowShowing5" style="display:none">
+					<a href="musicproducts.shtml"><img alt="joshgroban" src="Images/posters/joshgroban.png" /></a>
+				</div>
+				<div id="nowShowing6" style="display:none">
+					<a href="musicproducts.shtml"><img alt="nickelback" src="Images/posters/nickelback.jpg" /></a>
+				</div>
+				<div id="nowShowing7" style="display:none">
+					<a href="musicproducts.shtml"><img alt="neyo" src="Images/posters/neyo.jpg" /></a>
+				</div>              
+				<div id="nowShowing8" style="display:none">
+					<a href="musicproducts.shtml"><img alt="beyonce" src="Images/posters/beyonce.jpg" /></a>
+				</div>
+			</td>
+            <td id="marqueeSelect">
+                <a href="movieproducts.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot1','','Images/posters/dark1tb2.png',0)"><img alt="The Dark Knight" src="Images/posters/dark1tb.jpg" class="marqueeSlotOn" 
+                            id="nowShowingSlot1" onmouseover="showMarquee('1'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(1); document.body.style.cursor = 'auto';" /></a>
+                 <a href="movieproducts.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot2','','Images/posters/journeytb2.png',0)"> <img alt="Journey to the Center of the Earth" src="Images/posters/journeycentertb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot2" onmouseover="showMarquee('2'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(2); document.body.style.cursor = 'auto';"/></a>
+                  <a href="movieproducts.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot3','','Images/posters/walltb2.png',0)"><img alt="Wall-e" src="Images/posters/wall-etb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot3" onmouseover="showMarquee('3'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(3); document.body.style.cursor = 'auto';"/></a>
+                 <a href="movieproducts.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot4','','Images/posters/duchesstb2.png',0)"> <img alt="Duchess" src="Images/posters/duchesstb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot4" onmouseover="showMarquee('4'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(4); document.body.style.cursor = 'auto';"/></a>
+                              
+                 <a href="musicproducts.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot5','','Images/posters/joshtb2.png',0)"> <img alt="Josh Groban" src="Images/posters/joshgrobantb.png" class="marqueeSlot" 
+                            id="nowShowingSlot5" onmouseover="showMarquee('5'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(5); document.body.style.cursor = 'auto';"/></a>
+                              
+                 <a href="musicproducts.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot6','','Images/posters/nickelbacktb2.png',0)"> <img alt="Nickelback" src="Images/posters/nickelbacktb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot6" onmouseover="showMarquee('6'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(6); document.body.style.cursor = 'auto';"/></a>
+                              
+                 <a href="musicproducts.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot7','','Images/posters/neyotb2.png',0)"> <img alt="Neyo" src="Images/posters/neyotb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot7" onmouseover="showMarquee('7'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(7); document.body.style.cursor = 'auto';"/></a>
+                  <br />
+            </td>
+          </tr>
+        </table>
+ 
+    
+    </div>
+  <!-- END FEATURED PRODUCTS -->
+  </div>
+		<br class="clear" />
+		<div id="centercontent">
+			<div id="rightcontent">
+				<a href="#"><img src="Images/bestdeals.jpg" alt="Best Deals" width="163" height="194" /></a><br />
+				<br />
+				<a href="#"><img src="Images/nickback artist page.jpg" alt="Nickelback" width="163" height="194" /></a><br />
+				<br />
+				<a href="#"><img src="Images/beyonce.jpg" alt="Beyonce" width="163" height="194" /></a><br />
+				<br />
+				<a href="#"><img src="Images/music dvd.jpg" alt="Music Dvd" width="163" height="194" /></a>   <br />
+				<br />
+		</div>
+		<div id="leftcontent">
+			<h1> Top 5 Music</h1>
+				<table width="93%" border="0" cellpadding="0" cellspacing="0" class="tableleftcolume">
+				<tr>
+					<td class="hiddensides">1.&nbsp;&nbsp;</td>
+					<td  class="hiddensides"><p> Neyo: Year Of The Gentle Man<br />
+					<span class="style2"><strong>CD $11.99</strong></span></p></td>
+				</tr>
+				<tr>
+					<td class="hiddensides">2.</td>
+					<td class="hiddensides"><p>Nickelback: Dark Horse<br />
+					<span class="style2"><strong>CD $11.99</strong></span></p></td>
+				</tr>
+				<tr>
+					<td class="hiddensides">3.</td>
+					<td class="hiddensides"><p>Beyonce: I Am Sasha Fierce<br />
+					<span class="style2"><strong>CD $11.99</strong></span></p></td>
+				</tr>
+				<tr>
+				   <td class="hiddensides">4.</td>
+				   <td class="hiddensides"><p>Josh Groban: A Collection<br />
+				   <strong class="style2">CD<span class="style2"> $</span></strong><span class="style2"><strong>11.99</strong></span></p></td>
+				</tr>
+				<tr>
+					<td>5.</td>
+					<td><p>Killers: Day and Age<br />
+					<span class="style2"><strong>CD $11.99</strong></span></p></td>
+				</tr>
+				</table>
+				<p>&nbsp;</p>
+				<h1>Top 5 Movies</h1>
+				<table width="93%" border="0" cellpadding="0" cellspacing="0" class="tableleftcolume">
+					  <tr>
+						<td class="hiddensides">1.&nbsp;&nbsp;</td>
+						<td class="hiddensides"><p> The Dark Knight<br />
+								<span class="style2"><strong>DVD $14.99</strong></span></p></td>
+					  </tr>
+					  <tr>
+						<td class="hiddensides">2.</td>
+						<td class="hiddensides"><p>Kungfu Panda<br />
+								<span class="style2"><strong>DVD $14.99</strong></span></p></td>
+					  </tr>
+					  <tr>
+						<td class="hiddensides">3.</td>
+						<td class="hiddensides"><p>Wall-E<br />
+								<span class="style2"><strong>DVD $14.99</strong></span></p></td>
+					  </tr>
+					  <tr>
+						<td class="hiddensides">4.</td>
+						<td class="hiddensides"><p>The Duchess<br />
+								<strong class="style2">DVD $</strong><strong class="style2">14.99</strong></p></td>
+					  </tr>
+					  <tr>
+						<td>5.</td>
+						<td><p>Journey to the Center Of the Earth<br />
+								<span class="style2"><strong>DVD $14.99</strong></span></p></td>
+					  </tr>
+				</table>
+				<p>&nbsp;</p>
+     
+		</div>
+  <div id="midcontent">
+        <h1>Registration</h1>
+        <p class="ppadding"> Please enter the correct details this is to ensure your products gets delievered, efficiently and correctly and without any complications. Entering the wrong details will slow down the delivery process indefinately.</p>
+        
+        <p class="style2 center"><strong>Registration Form</strong></p>
+        <form id="pricing" method="post" action="javascript: sent1();" onsubmit="return ValidateForm(this);">
+        <table width="100%" border="0" cellpadding="5" cellspacing="0" id="customerDetails">
+                            <tr>
+                                <th colspan="2" scope="row">
+                                    <h2 class="style2">Please Enter Your  Details                                        </h2>                              </th>
+          </tr>
+                            <tr>
+                                <th class="width30" scope="row">
+                                    First Name                                </th>
+                                <td class="width70">
+                                    <input type="text" name="FirstName" id="FirstName" />                                </td>
+                            </tr>
+                            <tr>
+                                <th class="width30" scope="row">
+                                    Last Name                                </th>
+                                <td>
+                                    <input type="text" name="LastName" id="LastName" />                                </td>
+                            </tr>
+                            <tr>
+                                <th class="width30" scope="row">
+                                    Street Number                                </th>
+                                <td>
+                                    <input type="text" name="StreetNo" id="StreetNumber" />                                </td>
+                            </tr>
+                            <tr>
+                                <th class="width30" scope="row">
+                                    Street Name                                </th>
+                                <td>
+                                    <input type="text" name="StreetName" id="StreetName" />                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    Suburb                                </th>
+                                <td>
+                                    <input type="text" name="Suburb" id="Suburb" />                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    Postcode                                </th>
+                                <td>
+                                    <input type="text" name="PostCode" id="PostCode" maxlength="4"/>   
+									</td>
+                            </tr>
+							  <tr>
+                                <th scope="row">
+                                    Age                                </th>
+                                <td>
+                                    <input type="text" name="Age" id="Age" maxlength="2"/>   
+									</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    State                                </th>
+                                <td>
+                                    <select id="State">
+                                        <option value="" selected="selected">State</option>
+                                       <option value="NewSouthWales" >New South Wales</option>
+                                        <option value="Queensland">Queensland</option>
+                                        <option value="Victoria">Victoria</option>
+                                        <option value="NorthernTerritory">Nothern Territory</option>
+                                        <option value="Western Australia">Western Australia</option>
+                                        <option value="Tasmania">Tasmania</option>
+                                    </select>                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    Country                                </th>
+                                <td>
+                                    <select name="Country" id="Country">
+                                        <option value="">Country</option>
+                                        <option value="Australia" selected="selected">Australia</option>
+                                    </select>                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    Home Phone
+                                No                                </th>
+                                <td>
+                                    <input type="text" name="HomeNum" id="HomeNum" maxlength="8"/>                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    Fax No                                </th>
+                                <td>
+                                    <input type="text" name="FaxNumber" id="FaxNumber" maxlength="8" />                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    Mobile No                                </th>
+                                <td>
+                                    <input type="text" name="MobileNum" id="MobileNum" maxlength="10" />                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    Email                                </th>
+                                <td>
+                                    <input type="text" name="EmailAddress" id="EmailAddress" />                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    Credit Card Number                                </th>
+                                <td>
+                                    <div id="CCnumber">
+                                        <input name="CCnumber1" type="text" id="CCnumber1" maxlength="4" size="8"/>-
+                                        <input name="CCnumber2" type="text" id="CCnumber2" maxlength="4" size="8"/>-
+                                        <input name="CCnumber3" type="text" id="CCnumber3" maxlength="4" size="8"/>-
+                                        <input name="CCnumber4" type="text" id="CCnumber4" maxlength="4" size="8"/>
+                                    </div>                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    Credit Card Expiry Date                                </th>
+                                <td>
+                                    <div id="CCnumberexp">
+										<table border="0" cellspacing="0" cellpadding="2">
+                                            <tr>
+                                                <td>
+                                                    <select id="Date1">
+                                                        <option value="" selected="selected">Day</option>
+                                                        <option value="01">1</option>
+                                                        <option value="02">2</option>
+                                                        <option value="03">3</option>
+                                                        <option value="04">4</option>
+                                                        <option value="05">5</option>
+                                                        <option value="06">6</option>
+                                                        <option value="07">7</option>
+                                                        <option value="08">8</option>
+                                                        <option value="09">9</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+                                                        <option value="13">13</option>
+                                                        <option value="14">14</option>
+                                                        <option value="15">15</option>
+                                                        <option value="16">16</option>
+                                                        <option value="17">17</option>
+                                                        <option value="18">18</option>
+                                                        <option value="19">19</option>
+                                                        <option value="20">20</option>
+                                                        <option value="21">21</option>
+                                                        <option value="22">22</option>
+                                                        <option value="23">23</option>
+                                                        <option value="24">24</option>
+                                                        <option value="25">25</option>
+                                                        <option value="26">26</option>
+                                                        <option value="27">27</option>
+                                                        <option value="28">28</option>
+                                                        <option value="29">29</option>
+                                                        <option value="30">30</option>
+                                                        <option value="31">31</option>
+                                                    </select>                                                </td>
+                                                <td>
+                                                    <select id="Month">
+                                                        <option value="" selected="selected">Month</option>
+                                                        <option value="01">Jan</option>
+                                                        <option value="02">Feb</option>
+                                                        <option value="03">Mar</option>
+                                                        <option value="04">Apr</option>
+                                                        <option value="05">May</option>
+                                                        <option value="06">Jun</option>
+                                                        <option value="07">Jul</option>
+                                                        <option value="08">Aug</option>
+                                                        <option value="09">Sept</option>
+                                                        <option value="10">Oct</option>
+                                                        <option value="11">Nov</option>
+                                                        <option value="12">Dec</option>
+                                                    </select>                                                </td>
+                                                <td>
+                                                    <select id="Year">
+                                                        <option value="" selected="selected">Year</option>
+                                                        <option value="08">2008</option>
+                                                        <option value="09">2009</option>
+                                                        <option value="10">2010</option>
+                                                    </select>                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="2" align="center" scope="row">&nbsp;
+                              <p class="right"> <input type="reset" value="Clear" />  <input type="submit" value="Submit" onclick="ValidateForm(pricing);"/>     </p>                                </th>
+          </tr>
+        </table>
+        </form>
+        <p class="style2 center">&nbsp;</p>
+      </div>
+    </div>
+	<!-- END CONTENT -->
+  
+   
+  </div>
+  <br class="clear" />
+  <div id="footer"> <div id="footerbackground"></div>
+
+  <div id="links">
+  <table width="100%" id="footertable"><tr><td class="showside style1 width16"><a href="home.shtml">HomePage</a></td>
+  <td class="showside style1 width16"><a href="musicproducts.shtml">Music</a></td>
+  <td class="showside style1 width16"><a href="movieproducts.shtml">DVD</a></td>
+  <td class="showside style1 width16"><a href="feedback.shtml">Feedback</a></td>
+  <td class="showside style1 width16"><a href="aboutus.shtml">AboutUs</a></td><td class="width16"><span class="style1"><a href="contacts.shtml">Contacts</a></span></td>
+  </tr>
+  </table>
+  </div>
+  <div class="style1" id="cardss">We accept:<img src="Images/cards.gif" alt="Payment" height="29" id="cards" /><br/>
+<!--#include virtual="date.shtml" -->
+  </div>
+   <br class="clear" />
+  <div class="copy">
+  <table class="copy width100">
+  <tr>
+  <td class="showside style1 width47">
+  <a href="copyright.shtml">Copyright &copy; 2008 eM&amp;M</a> 
+  </td>
+  <td class="showside style1 width27">
+	<a href="privacy.shtml">Privacy Notice</a>
+  </td>
+  <td class="width26"><span class="style1">
+	<a href="terms.shtml">Terms Of Use</a></span>
+  </td>
+ 
+  </tr>
+  </table>
+  </div>
+  
+  
+  </div>
+</div>
+</body>
+</html>

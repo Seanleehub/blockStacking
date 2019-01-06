@@ -1,0 +1,393 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Your Electronic Music And Movie Store</title>
+
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="javascript/marquee.js"></script>
+<script type="text/javascript" src="javascript/rollover.js"></script>
+<script type="text/javascript" src="javascript/feedback.js"></script>
+<script type="text/javascript" src="javascript/price.js"></script>
+
+
+<script type="text/javascript">
+<!--
+function MM_setTextOfTextfield(objId,x,newText) { //v9.0
+  with (document){ if (getElementById){
+    var obj = getElementById(objId);} if (obj) obj.value = newText;
+  }
+}
+//-->
+</script>
+
+</head>
+
+<body>
+<div id="container">
+  <div id="header"><a name="top" id="top"></a>
+   <div id="logocontainer">
+  <img src="Images/storelogo.png" alt="eM&amp;M logo" width="295" height="91" id="logo" /></div>
+  <div id="shoppingcart">
+   <table width="200" border="0" id="shoppingcarttab">
+      <tr>
+        <td class="tdwidth40"><a href="#"><img src="Images/cart.jpg" alt="Shopping cart" width="40" height="40" /></a></td>
+        <td class="tdwidth150"><p class="style1"><a href="#">Shopping Cart:<br />
+        Click here to purchase products.</a></p>          </td>
+      </tr>
+    </table>
+    </div>
+  </div>
+  
+  <div id="headerbackground"></div>
+  <div id="content"><div id="topcontent">
+    <div id="toprightright">
+      <table width="100%" border="0">
+        <tr>
+          <td class="hiddensides"><strong>Quick Search:</strong><br />
+
+            <table><tr><td><input type="text" name="search" size="13" id="search" />     </td><td>         
+            <img src="Images/gobutton.png" alt="Go" width="40" height="25" />
+
+			</td></tr></table>    
+			<br />
+			</td>
+        </tr>
+        <tr><td class="hiddensides">
+          <p><img src="Images/buttons/arrow.png" alt="Arrow" width="46" height="15" id="arrow"/><strong class="style2 style6"> Best Buys</strong></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="hiddensides"><p><strong>Login:</strong>
+            <input type="text" name="username" id="username" value="Username"/>
+                <br/>
+                
+                <input type="password" name="password" id="password" value="Password" />
+                </p>
+        <input type="submit" name="Submit" id="Submit" value="Enter" />
+          <p><a href="register.shtml">Click here to Register</a><br />
+            </p></td>
+        </tr>
+        
+      </table>
+    </div>
+	
+    <div id="topleftcontent">
+		<!--#include virtual="nav.shtml" -->
+	</div>
+	<!-- Featured PRODUCTS -->
+    <div id="toprightcontent" class="center">
+    
+     <table class="marquetable" border="0" cellpadding="0" cellspacing="0" id="featuredproducts">
+        <tr>
+			<td class="tdwidth440" id="left">
+				<div id="nowShowing1" style="display:inline">
+					<a href="movieproducts.sshtml"><img src="Images/posters/dark1.jpg" alt="Dark Knight" /></a>
+				</div>
+				<div id="nowShowing2" style="display:none">
+					<a href="movieproducts.sshtml"><img src="Images/posters/journeycenter.jpg" alt="journey" /></a>
+				</div>
+				<div id="nowShowing3" style="display:none">
+					<a href="movieproducts.sshtml"><img alt="wall-e" src="Images/posters/wall-e.jpg" /></a>
+				</div>
+				<div id="nowShowing4" style="display:none">
+					<a href="movieproducts.sshtml"><img alt="duchess" src="Images/posters/duchess.jpg" /></a>
+				</div>
+				<div id="nowShowing5" style="display:none">
+					<a href="musicproducts.sshtml"><img alt="joshgroban" src="Images/posters/joshgroban.png" /></a>
+				</div>
+				<div id="nowShowing6" style="display:none">
+					<a href="musicproducts.sshtml"><img alt="nickelback" src="Images/posters/nickelback.jpg" /></a>
+				</div>
+				<div id="nowShowing7" style="display:none">
+					<a href="musicproducts.sshtml"><img alt="neyo" src="Images/posters/neyo.jpg" /></a>
+				</div>              
+				<div id="nowShowing8" style="display:none">
+					<a href="musicproducts.sshtml"><img alt="beyonce" src="Images/posters/beyonce.jpg" /></a>
+				</div>
+			</td>
+            <td id="marqueeSelect">
+                <a href="movieproducts.sshtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot1','','Images/posters/dark1tb2.png',0)"><img alt="The Dark Knight" src="Images/posters/dark1tb.jpg" class="marqueeSlotOn" 
+                            id="nowShowingSlot1" onmouseover="showMarquee('1'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(1); document.body.style.cursor = 'auto';" /></a>
+                 <a href="movieproducts.sshtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot2','','Images/posters/journeytb2.png',0)"> <img alt="Journey to the Center of the Earth" src="Images/posters/journeycentertb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot2" onmouseover="showMarquee('2'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(2); document.body.style.cursor = 'auto';"/></a>
+                  <a href="movieproducts.sshtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot3','','Images/posters/walltb2.png',0)"><img alt="Wall-e" src="Images/posters/wall-etb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot3" onmouseover="showMarquee('3'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(3); document.body.style.cursor = 'auto';"/></a>
+                 <a href="movieproducts.sshtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot4','','Images/posters/duchesstb2.png',0)"> <img alt="Duchess" src="Images/posters/duchesstb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot4" onmouseover="showMarquee('4'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(4); document.body.style.cursor = 'auto';"/></a>
+                              
+                 <a href="musicproducts.sshtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot5','','Images/posters/joshtb2.png',0)"> <img alt="Josh Groban" src="Images/posters/joshgrobantb.png" class="marqueeSlot" 
+                            id="nowShowingSlot5" onmouseover="showMarquee('5'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(5); document.body.style.cursor = 'auto';"/></a>
+                              
+                 <a href="musicproducts.sshtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot6','','Images/posters/nickelbacktb2.png',0)"> <img alt="Nickelback" src="Images/posters/nickelbacktb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot6" onmouseover="showMarquee('6'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(6); document.body.style.cursor = 'auto';"/></a>
+                              
+                 <a href="musicproducts.sshtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowShowingSlot7','','Images/posters/neyotb2.png',0)"> <img alt="Neyo" src="Images/posters/neyotb.jpg" class="marqueeSlot" 
+                            id="nowShowingSlot7" onmouseover="showMarquee('7'); document.body.style.cursor = 'pointer';" onmouseout="runSlideshow(7); document.body.style.cursor = 'auto';"/></a>
+                  <br />
+            </td>
+          </tr>
+        </table>
+ 
+    
+    </div>
+  <!-- END FEATURED PRODUCTS -->
+  </div>
+		<br class="clear" />
+		<div id="centercontent">
+			<div id="rightcontent">
+				<a href="#"><img src="Images/bestdeals.jpg" alt="Best Deals" width="163" height="194" /></a><br />
+				<br />
+				<a href="#"><img src="Images/nickback artist page.jpg" alt="Nickelback" width="163" height="194" /></a><br />
+				<br />
+				<a href="#"><img src="Images/beyonce.jpg" alt="Beyonce" width="163" height="194" /></a><br />
+				<br />
+				<a href="#"><img src="Images/music dvd.jpg" alt="Music Dvd" width="163" height="194" /></a>   <br />
+				<br />
+		</div>
+		<div id="leftcontent">
+			<h1> Top 5 Music</h1>
+				<table width="93%" border="0" cellpadding="0" cellspacing="0" class="tableleftcolume">
+				<tr>
+					<td class="hiddensides">1.&nbsp;&nbsp;</td>
+					<td  class="hiddensides"><p> Neyo: Year Of The Gentle Man<br />
+					<span class="style2"><strong>CD $11.99</strong></span></p></td>
+				</tr>
+				<tr>
+					<td class="hiddensides">2.</td>
+					<td class="hiddensides"><p>Nickelback: Dark Horse<br />
+					<span class="style2"><strong>CD $11.99</strong></span></p></td>
+				</tr>
+				<tr>
+					<td class="hiddensides">3.</td>
+					<td class="hiddensides"><p>Beyonce: I Am Sasha Fierce<br />
+					<span class="style2"><strong>CD $11.99</strong></span></p></td>
+				</tr>
+				<tr>
+				   <td class="hiddensides">4.</td>
+				   <td class="hiddensides"><p>Josh Groban: A Collection<br />
+				   <strong class="style2">CD<span class="style2"> $</span></strong><span class="style2"><strong>11.99</strong></span></p></td>
+				</tr>
+				<tr>
+					<td>5.</td>
+					<td><p>Killers: Day and Age<br />
+					<span class="style2"><strong>CD $11.99</strong></span></p></td>
+				</tr>
+				</table>
+				<p>&nbsp;</p>
+				<h1>Top 5 Movies</h1>
+				<table width="93%" border="0" cellpadding="0" cellspacing="0" class="tableleftcolume">
+					  <tr>
+						<td class="hiddensides">1.&nbsp;&nbsp;</td>
+						<td class="hiddensides"><p> The Dark Knight<br />
+								<span class="style2"><strong>DVD $14.99</strong></span></p></td>
+					  </tr>
+					  <tr>
+						<td class="hiddensides">2.</td>
+						<td class="hiddensides"><p>Kungfu Panda<br />
+								<span class="style2"><strong>DVD $14.99</strong></span></p></td>
+					  </tr>
+					  <tr>
+						<td class="hiddensides">3.</td>
+						<td class="hiddensides"><p>Wall-E<br />
+								<span class="style2"><strong>DVD $14.99</strong></span></p></td>
+					  </tr>
+					  <tr>
+						<td class="hiddensides">4.</td>
+						<td class="hiddensides"><p>The Duchess<br />
+								<strong class="style2">DVD $</strong><strong class="style2">14.99</strong></p></td>
+					  </tr>
+					  <tr>
+						<td>5.</td>
+						<td><p>Journey to the Center Of the Earth<br />
+								<span class="style2"><strong>DVD $14.99</strong></span></p></td>
+					  </tr>
+				</table>
+				<p>&nbsp;</p>
+     
+		</div>
+      <div id="midcontent">
+        <h1>Out This Week</h1>
+        <!-- "content" -->
+        <p class="contentpara"><strong>Music</strong></p>
+        <table class="middlecontenttable" border="0" cellpadding="0" cellspacing="5">
+          <tr>
+            <td class="tdborder2"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="tdwidth135"><img src="Images/music/coldplay.JPG" alt="coldplay" width="113" height="129" class="paddingleft10px"/></td>
+                  <td class="tdwidth138" valign="top"><p><strong><a href="#">Coldplay - Prospekts March</a></strong><br />
+                          <span class="style2"><a href="#" class="style2">More Info...</a></span><span class="style5"><br />
+                            RRP </span><span class="strikeout">$ 20.99</span><span class="style5"><br />
+                              Your saving $ 9.00</span></p>
+                      <p><span class="style2 style6">CD $11.99</span><br />
+                          <strong>Free Delivery</strong></p></td>
+                </tr>
+              <tr>
+                <td><div class="center"><a href="#"><img src="Images/buttons/details.png" alt="Details" width="107" height="18" /></a></div></td>
+                <td><div class="center"><a href="#"><img src="Images/buttons/addtocart.png" alt="Add to Cart" width="107" height="18" /></a></div></td>
+              </tr>
+            </table></td>
+            <td class="tdborder2"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="tdwidth135"><img src="Images/music/dido.JPG" alt="dido" width="113" height="129"  class="paddingleft10px"/></td>
+                  <td class="tdwidth138" valign="top"><p><strong><a href="#">Dido - Safe Trip Home</a></strong><br />
+                          <span class="style2"><a href="#" class="style2">More Info...</a></span><span class="style5"><br />
+                            List Price </span><span class="strikeout">$20.99</span><span class="style5"><br />
+                              Your saving $ 9.00</span></p>
+                      <p><span class="style2 style6">CD $11.99</span><br />
+                          <strong>Free Delivery</strong></p></td>
+                </tr>
+              <tr>
+                <td><div class="center"><a href="#"><img src="Images/buttons/details.png" alt="Details" width="107" height="18" /></a></div></td>
+                <td><div class="center"><a href="#"><img src="Images/buttons/addtocart.png" alt="Add to Cart" width="107" height="18" /></a></div></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td class="tdborder"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="tdwidth135"><img src="Images/music/shady.JPG" alt="emimem" width="113" height="129"  class="paddingleft10px"/></td>
+                  <td class="tdwidth138" valign="top"><p><strong><a href="#">Eminem - <br />
+                    Relapse</a></strong><br />
+                    <span class="style2"><a href="#" class="style2">More Info...</a></span><span class="style5"><br />
+                      RRP </span><span class="strikeout">$20.99</span><span class="style5"><br />
+                        Your saving $ 9.00</span></p>
+                <p><span class="style2 style6">CD $11.99</span><br />
+                          <strong>Free Delivery</strong></p></td>
+                </tr>
+              <tr>
+                <td><div class="center"><a href="#"><img src="Images/buttons/details.png" alt="Details" width="107" height="18" /></a></div></td>
+                <td><div class="center"><a href="#"><img src="Images/buttons/addtocart.png" alt="Add to Cart" width="107" height="18" /></a></div></td>
+              </tr>
+            </table></td>
+            <td class="tdborder"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="tdwidth135"><img src="Images/music/kandi.JPG" alt="kandi" width="113" height="130" class="paddingleft10px"/></td>
+                  <td class="tdwidth138" valign="top"><p><strong><a href="#">Hed Kandi- Mix 2009</a></strong><br />
+                          <span class="style2"><a href="#" class="style2">More Info...</a></span><span class="style5"><br />
+                            List Price </span><span class="strikeout">$20.99</span><span class="style5"><br />
+                              Your saving $ 9.00</span></p>
+                      <p><span class="style2 style6">CD $11.99</span><br />
+                          <strong>Free Delivery</strong></p></td>
+                </tr>
+              <tr>
+                <td><div class="center"><a href="#"><img src="Images/buttons/details.png" alt="Details" width="107" height="18" /></a></div></td>
+                <td><div class="center"><a href="#"><img src="Images/buttons/addtocart.png" alt="Add to Cart" width="107" height="18" /></a></div></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+        <p class="contentpara"><strong>Movies</strong><br/>
+        </p>
+        <table class="middlecontenttable" border="0" cellpadding="0" cellspacing="5">
+          <tr>
+            <td class="tdborder2"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="tdwidth135"><img src="Images/movies/indianajones.JPG" alt="indiana jones" width="130" height="130" class="left"/></td>
+                  <td class="tdwidth138" valign="top"><p><strong><a href="#">Indiana Jones &amp; The Kingdom Of The Crystal Skull</a></strong><br />
+                          <span class="style2"><a href="#" class="style2">More Info...</a></span><span class="style5"><br />
+                            RRP </span><span class="strikeout">$ 24.99</span><span class="style5"><br />
+                              Your saving $ 10.00</span></p>
+                      <p><span class="style2 style6">DVD $14.99</span><br />
+                          <strong>Free Delivery</strong></p></td>
+                </tr>
+              <tr>
+                <td><div class="center"><a href="#"><img src="Images/buttons/details.png" alt="Details" width="107" height="18" /></a></div></td>
+                <td><div class="center"><a href="#"><img src="Images/buttons/addtocart.png" alt="Add to Cart" width="107" height="18" /></a></div></td>
+              </tr>
+            </table></td>
+            <td class="tdborder2"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="tdwidth135"><img src="Images/movies/britania.JPG" alt="brittania" width="130" height="130" class="paddingleft10px"/></td>
+                  <td class="tdwidth138" valign="top"><p><strong><a href="#">Dido - Safe Trip Home</a></strong><br />
+                          <span class="style2"><a href="#" class="style2">More Info...</a></span><span class="style5"><br />
+                            List Price </span><span class="strikeout">$24.99</span><span class="style5"><br />
+                              Your saving $ 9.00</span></p>
+                      <p><span class="style2 style6">CD $14.99</span><br />
+                          <strong>Free Delivery</strong></p></td>
+                </tr>
+              <tr>
+                <td><div class="center"><a href="#"><img src="Images/buttons/details.png" alt="Details" width="107" height="18" /></a></div></td>
+                <td><div class="center"><a href="#"><img src="Images/buttons/addtocart.png" alt="Add to Cart" width="107" height="18" /></a></div></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td class="tdborder"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="tdwidth135"><img src="Images/movies/narnia.JPG" alt="narnia" width="90" height="130" class="paddingleft20px"/></td>
+                  <td class="tdwidth138" valign="top"><p><strong><a href="#">Chronicles of Narnia: Prince Caspian</a></strong><br />
+                          <span class="style2"><a href="#" class="style2">More Info...</a></span><span class="style5"><br />
+                            RRP </span><span class="strikeout">$24.99</span><span class="style5"><br />
+                              Your saving $ 10.00</span></p>
+                <p><span class="style2 style6">DVD $ 14.99</span><br />
+                          <strong>Free Delivery</strong></p></td>
+                </tr>
+              <tr>
+                <td><div class="center"><a href="#"><img src="Images/buttons/details.png" alt="Details" width="107" height="18" /></a></div></td>
+                <td><div class="center"><a href="#"><img src="Images/buttons/addtocart.png" alt="Add to Cart" width="107" height="18" /></a></div></td>
+              </tr>
+            </table></td>
+            <td class="tdborder"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="tdwidth135"><img src="Images/movies/stephen fry.JPG" alt="stephen fry " width="90" height="130" class="paddingleft10px"/></td>
+                  <td class="tdwidth138" valign="top"><p><strong><a href="#">Stephen Fry In America</a></strong><br />
+                          <span class="style2"><a href="#" class="style2">More Info...</a></span><span class="style5"><br />
+                            List Price </span><span class="strikeout">$24.99</span><span class="style5"><br />
+                              Your saving $ 10.00</span></p>
+                      <p><span class="style2 style6">CD $14.99</span><br />
+                          <strong>Free Delivery</strong></p></td>
+                </tr>
+              <tr>
+                <td><div class="center"><a href="#"><img src="Images/buttons/details.png" alt="Details" width="107" height="18" /></a></div></td>
+                <td><div class="center"><a href="#"><img src="Images/buttons/addtocart.png" alt="Add to Cart" width="107" height="18" /></a></div></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table>
+       </div>
+    
+    </div>
+	<!-- END CONTENT -->
+  
+   
+  </div>
+  <br class="clear" />
+  <div id="footer"> <div id="footerbackground"></div>
+
+  <div id="links">
+  <table width="100%" id="footertable"><tr><td class="showside style1 width16"><a href="home.sshtml">HomePage</a></td>
+  <td class="showside style1 width16"><a href="musicproducts.sshtml">Music</a></td>
+  <td class="showside style1 width16"><a href="movieproducts.shtml">DVD</a></td>
+  <td class="showside style1 width16"><a href="feedback.shtml">Feedback</a></td>
+  <td class="showside style1 width16"><a href="aboutus.shtml">AboutUs</a></td><td class="width16"><span class="style1"><a href="contacts.shtml">Contacts</a></span></td>
+  </tr>
+  </table>
+  </div>
+  <div class="style1" id="cardss">We accept:<img src="Images/cards.gif" alt="Payment" height="29" id="cards" />
+  <br/>
+ <!--#include virtual="date.shtml" -->
+
+  
+  </div>
+   <br class="clear" />
+  <div class="copy">
+  <table class="copy width100"><tr><td class="showside style1 width47"><a href="copyright.shtml">Copyright &copy; 2008 eM&amp;M</a> </td>
+  <td class="showside style1 width27">
+	<a href="privacy.shtml">Privacy Notice</a>
+  </td>
+  <td class="width26"><span class="style1">
+	<a href="terms.shtml">Terms Of Use</a></span>
+  </td>
+  </tr>
+  </table>
+  </div>
+  
+  
+  </div>
+</div>
+</body>
+</html>
